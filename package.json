@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/maxlever/borderbiennial/issues"
   },
-  "homepage": "https://github.com/maxlever/borderbiennial#readme"
+  "homepage": "https://github.com/maxlever/borderbiennial#readme",
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.20.1"
+  },
+  "git": {
+    "scripts": {
+        "pre-push": "surge --project ./ --domain borderbiennial.surge.sh"
+    }
+    }
 }
