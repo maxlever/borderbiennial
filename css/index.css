@@ -44,5 +44,6 @@ p:hover {
 }
 
 .sam:hover {
-    background-image: url(images/sam-adams.jpg);
+    background-image: url(../images/sam-adams.jpg);
+    background-size: cover;
 }
