@@ -1,3 +1,3 @@
-$('.thumbnail').hover(function (e) {
+$('.thumbnail').click(function (e) {
     $(e.target).toggleClass('on');
 });
