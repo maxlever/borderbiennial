@@ -1,11 +1,11 @@
 body {
-    font-family:'Roboto Condensed';
+    font-family:'Work Sans';
     height: 100%;
     width: 100%;
     color: #342A21ee;
 }
 h1 {
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 700;
     font-size: 2em;
     line-height: 0.9;
@@ -41,4 +41,8 @@ p {
 }
 p:hover {
     border-width: 30px;
+}
+
+.sam:hover {
+    background-image: url(images/sam-adams.jpg);
 }
