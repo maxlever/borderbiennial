@@ -24,6 +24,16 @@ h1 {
         #D897A340 20px
       ); */
 }
+h1:after {
+    position: relative;
+    display: block;
+    top: 10px;
+    left: 0;
+    background: none;
+    content: 'ARTH5200, Sam Adams';
+    font-weight: 400;
+    font-size: .5em;
+}
 @media (max-width: 500px) {
     h1 {
         left: 0;
