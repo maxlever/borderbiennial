@@ -1,5 +1,6 @@
 .thumbnail {
     height: 30px; width: 130px;
+    z-index: 5;
     transition: .3s all ease-in-out;
     transition-property: top, left, height, width;
 }
