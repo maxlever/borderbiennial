@@ -1,0 +1,28 @@
+.box--dissolving { top: 40%; left: 60%; }
+.box--solidifying { top: 30%; left: 70%; }
+.box--border { top: 20%; left: 80%; }
+.box--boundary { top: 10%; left: 80%; }
+.box--borderless { top: 30%; left: 50%; }
+.box--borderess { top: 50%; left: 10%; }
+.box--restricted { top: 80%; left: 10%; }
+.box--bound { top: 60%; left: 30%; }
+.box--grain { top: 40%; left: 50%; }
+.box--divide { top: 30%; left: 40%; }
+.box--division { top: 20%; left: 30%; }
+
+.box--dissolving:after { content:'dissolving'; }
+.box--solidifying:after { content:'solidifying'; }
+.box--border:after { content:'border'; }
+.box--boundary:after { content:'boundary'; }
+.box--borderless:after { content:'borderless'; }
+.box--borderess:after { content:'border/ess'; }
+.box--restricted:after { content:'restricted'; }
+.box--bound:after { content:'bound'; }
+.box--grain:after { content:'grain of salt'; }
+.box--divide:after { content:'divide'; }
+.box--division:after { content:'division'; }
+.box--open:after { content:'open'; }
+.box--demarcation:after { content:'demarcation'; }
+.box--village:after { content:'global village'; }
+.box--enclosed:after { content:'enclosed'; }
+.box--limits:after { content:'limits'; }

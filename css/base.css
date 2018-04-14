@@ -4,25 +4,26 @@ body {
     width: 100%;
     color: #342A21ee;
 }
+.container {
+    height: 100%;
+    width: 100%;
+}
 h1 {
-    /* font-style: italic; */
     font-weight: 700;
     font-size: 2em;
     line-height: 0.9;
     padding: 110px;
     padding-top: 60px;
-    position: absolute;
+    position: fixed;
     left: 60%;
     width: 50px;
     color: #342A2166;
     background: #D897A350;
-    /* background: repeating-radial-gradient(
-        circle,
-        #342A2100,
-        #342A2100 10px,
-        #D897A340 10px,
-        #D897A340 20px
-      ); */
+}
+@media (max-width: 500px) {
+    h1 {
+        left: 0;
+    }
 }
 h1:after {
     position: relative;
@@ -34,15 +35,7 @@ h1:after {
     font-weight: 400;
     font-size: .5em;
 }
-@media (max-width: 500px) {
-    h1 {
-        left: 0;
-    }
-}
-.container {
-    height: 100%;
-    width: 100%;
-}
+
 p {
     position: absolute;
     padding: 100px;
@@ -53,6 +46,9 @@ p:hover {
     border-width: 30px;
 }
 
+.sam:hover:after {
+    color: #00000000;
+}
 .sam:hover {
     background-image: url(../images/sam-adams.jpg);
     background-size: cover;

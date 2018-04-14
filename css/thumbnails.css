@@ -1,0 +1,86 @@
+.thumbnail {
+    height: 30px; width: 130px;
+    transition: .3s all ease-in-out;
+    transition-property: top, left, height, width;
+}
+.thumbnail.on:after {
+    color: #00000000;
+}
+.thumbnail.on {
+    top: 0%; left: 0%;
+    height: 70vh; width:70vw;
+    position: fixed;
+    background-size: cover;
+    z-index: 100;
+}
+.thumbnail.small.on {
+    left: 20%; top: 20%;
+    height: 30vh; width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thumbnail.thumbnail--ai {
+    top:70%; left: 50%;
+    height: 30px; width: 110px;
+}
+.thumbnail.thumbnail--ai.on {
+    top: 0%; left: 0%;
+    height: 70vh; width:70vw;
+    background-image: url(../images/circle-fence.jpg);
+}
+
+.thumbnail.thumbnail--bell {
+    top:70%; left: 20%;
+    height: 30px; width: 140px;
+}
+.thumbnail.thumbnail--bell.on {
+    top: 0%; left: 0%;
+    height: 70vh; width:70vw;
+    background-image: url(../images/aboriginal-embassy.jpg);
+}
+
+.thumbnail.thumbnail--poster {
+    top:10%; left: 20%;
+    height: 30px; width: 140px;
+}
+.thumbnail.thumbnail--poster.on {
+    left: 20%; top: 20%;
+    height: 30vh; width: 30vw;
+    background-image: url(../images/poster.jpg);
+}
+
+.thumbnail.thumbnail--plan {
+    top: 50%; left: 40%;
+}
+.thumbnail.thumbnail--plan.on {
+    left: 20%; top: 20%;
+    height: 30vh; width: 30vw;
+    background-image: url(../images/plan.png);
+}
+
+.thumbnail.thumbnail--ticket {
+    top: 50%; left: 80%;
+}
+.thumbnail.thumbnail--ticket.on {
+    left: 20%; top: 20%;
+    height: 30vh; width: 30vw;
+    background-image: url(../images/ticket.jpg);
+}
+
+.thumbnail.thumbnail--station.on {
+    background-image: url(../images/station.jpg);
+}
+.thumbnail.thumbnail--entrance.on {
+    background-image: url(../images/entrance.jpg);
+}
+.thumbnail.thumbnail--baggage.on {
+    background-image: url(../images/baggage.jpg);
+}
+.thumbnail.thumbnail--circle-fence.on {
+    background-image: url(../images/circle-fence.jpg);
+}
+.thumbnail.thumbnail--dirt-wall.on {
+    background-image: url(../images/dirt-wall.jpg);
+}
